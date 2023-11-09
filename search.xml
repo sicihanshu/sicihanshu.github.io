@@ -4,16 +4,111 @@
   
     
     <entry>
-      <title>第一篇文章</title>
-      <link href="/2023/11/09/2023-11-6%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/11/09/2023-11-6%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <title>git安装</title>
+      <link href="/2023/11/09/git%E5%AE%89%E8%A3%85/"/>
+      <url>/2023/11/09/git%E5%AE%89%E8%A3%85/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Gnuradio3-10-安装教程"><a href="#Gnuradio3-10-安装教程" class="headerlink" title="Gnuradio3.10 安装教程"></a>Gnuradio3.10 安装教程</h1><p><strong>本站所有gnuradio相关教程均使用Ubuntu20.04.6 LTS WS2版本（windows子系统），有想用子系统的可自行寻找教程安装</strong><br>git能够帮助用户很好的管理指向顺序，同时也为存储数据做出了方案，比如包的收发。</p><p>首先进行更新确保apt列表完全更新：</p><pre><code>apt-get update -yapt-get upgrade -y</code></pre><p>然后，安装git：</p><pre><code>sudo apt-get git</code></pre><p>可以查看版本：</p><pre><code>git --version</code></pre><p>默认已经在git上建立了仓库，连接了邮箱与id。</p><p>这些是各种场合常见的 Git 命令：</p><p>开始一个工作区（参见：git help tutorial）<br>  clone      克隆一个仓库到一个新目录<br>  init      创建一个空的 Git 仓库或重新初始化一个已存在的仓库</p><p>在当前变更上工作（参见：git help everyday）<br>  add        添加文件内容至索引<br>  mv        移动或重命名一个文件、目录或符号链接<br>  reset      重置当前 HEAD 到指定状态<br>  rm        从工作区和索引中删除文件</p><p>检查历史和状态（参见：git help revisions）<br>  bisect    通过二分查找定位引入 bug 的提交<br>  grep      输出和模式匹配的行<br>  log        显示提交日志<br>  show      显示各种类型的对象<br>  status    显示工作区状态</p><p>扩展、标记和调校您的历史记录<br>  branch    列出、创建或删除分支<br>  checkout  切换分支或恢复工作区文件<br>  commit    记录变更到仓库<br>  diff      显示提交之间、提交和工作区之间等的差异<br>  merge      合并两个或更多开发历史<br>  rebase    在另一个分支上重新应用提交<br>  tag        创建、列出、删除或校验一个 GPG 签名的标签对象</p><p>协同（参见：git help workflows）<br>  fetch      从另外一个仓库下载对象和引用<br>  pull      获取并整合另外的仓库或一个本地分支<br>  push      更新远程引用和相关的对象</p><p>命令 ‘git help -a’ 和 ‘git help -g’ 显示可用的子命令和一些概念帮助。<br>查看 ‘git help &lt;命令&gt;’ 或 ‘git help &lt;概念&gt;’ 以获取给定子命令或概念的<br>帮助。</p>]]></content>
       
       
       <categories>
           
-          <category> ubuntu </category>
+          <category> Ubuntu </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>记录周常</title>
+      <link href="/2023/11/09/%E5%91%A8%E6%80%BB2023-11-9/"/>
+      <url>/2023/11/09/%E5%91%A8%E6%80%BB2023-11-9/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最大的感觉是，干不完的活，下周还要上台答辩，压力拉满。买的plutosdr还没到，不知道能不能正常接上，事情也一件接着一件，但是还是要保持生活状态，工作日就工作，休息日就休息！</p><p>11-9 今天把grc流程图稍微看了看，准备明天组会讲讲了，顺便把博客优化了下，打算写几个月再放出来。顺便分配了下政治任务，着实感到能者多劳这句话，也只是给一些人偷懒的借口罢了。但是生活时常与压力相伴，与压力共存才是应该的状态。</p><p>这几年战锤这个ip也是越来越火了，作为老锤粉看到这还是很开心的，大多数入坑还是奔着帝国来的吧，虽然我也是帝国粉丝，也不太喜欢官方硬抬钛族，就这新兴种族打算对标谁啊，泰伦都没见到的宇宙小丑罢了。</p><p>不得不说，下雨天泡杯茶在宿舍看看视频做做博客还挺舒服的</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Gnuradio3.10 安装教程</title>
+      <link href="/2023/11/09/gnuradio3-10%E5%AE%89%E8%A3%85/"/>
+      <url>/2023/11/09/gnuradio3-10%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Gnuradio3-10-安装教程"><a href="#Gnuradio3-10-安装教程" class="headerlink" title="Gnuradio3.10 安装教程"></a>Gnuradio3.10 安装教程</h1><p><strong>本站所有gnuradio相关教程均使用Ubuntu20.04.6 LTS WS2版本（windows子系统），有想用子系统的可自行寻找教程安装</strong><br>Gnu radio是一款软件无线电软件，可在linux与windows环境下运行，但windows功能不全，故选择linux。</p><p>首先，Ubuntu20.04自动安装gnuradio时只能到gnuradio3.8版本，但是github上的一些新的oot包需要3.10版本，所以建议安装3.10版本（不支持wx界面）</p><p>第一步，安装前在终端输入更新</p><pre><code>sudo apt-get updatesudo apt-get upgrade</code></pre><p>第二步，安装UHD，需要在终端输入代码</p><pre><code>sudo apt-get install libuhd-dev libuhd3.15.0 uhd-hostsudo add-apt-repository ppa:ettusresearch/uhdsudo apt-get updatesudo apt-get install libuhd-dev libuhd4.1.0 uhd-host</code></pre><p>第三步，安装GNU radio</p><pre><code>sudo add-apt-repository ppa:gnuradio/gnuradio-releasessudo apt-get updatesudo apt install gnuradio</code></pre><p>安装完成，具体教程可自行寻找。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Gnuradio-soapysdr/SDR </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>pluto与rtl sdr环境设置 与soapysdr的安装</title>
+      <link href="/2023/11/09/pluto%E4%B8%8Ertlsdr%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/"/>
+      <url>/2023/11/09/pluto%E4%B8%8Ertlsdr%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="soapysdr"><a href="#soapysdr" class="headerlink" title="soapysdr"></a>soapysdr</h1><p><strong>本站所有gnuradio相关教程均使用Ubuntu20.04.6 LTS WS2版本（windows子系统），有想用子系统的可自行寻找教程安装</strong></p><p>市面上的sdr都支持soapysdr协议，想要利用plutosdr或者rtlsdr进行无线电设计，需要用到一些依赖库。</p><p>soapysdr bug很多，但不用慌。</p><p>其依赖libiil、libad9361、Soapysdr库<br>首先更新库</p><pre><code>sudo apt-get update</code></pre><p>1.apt安装库</p><pre><code>sudo apt-get install libiio-utils</code></pre><p>2.源码编译 安装与测试</p><pre><code>sudo apt-get install libxml2 libxml2-dev bison flex libcdk5-dev cmakesudo apt-get install libaio-dev libusb-1.0-0-dev libserialport-dev libxml2-dev libavahi-client-dev doxygen graphvizgit clone https://github.com/pcercuei/libini.gitcd libinimkdir build &amp;&amp; cd build &amp;&amp; cmake ../ &amp;&amp; make &amp;&amp; sudo make installgit clone https://github.com/analogdevicesinc/libiio.gitcd libiiomkdir build &amp;&amp; cd build &amp;&amp; cmake ../ &amp;&amp; make &amp;&amp; sudo make installPATH=/usr/lib/:$PATHiio_info -s</code></pre><p>3.ad9361</p><pre><code>cd ~/Downloadgit clone https://github.com/analogdevicesinc/libad9361-iiocd libad9361-iiocmake ./CMakeLists.txtmakesudo make install</code></pre><p>注意 没有cmake的可以自己装一下</p><p>4.SoapySDR</p><pre><code>git clone https://github.com/pothosware/SoapySDR.gitcd SoapySDRgit checkout tags/soapy-sdr-0.7.2kdir build &amp;&amp; cd buildcmake ..make -j4sudo make installsudo ldconfig</code></pre><p>到这里，基础库就安装完了，接下来该配置pluto与rtl的环境了</p><h1 id="plutosdr-rtlsdr"><a href="#plutosdr-rtlsdr" class="headerlink" title="plutosdr rtlsdr"></a>plutosdr rtlsdr</h1><p>运行如下代码：</p><pre><code>git clone https://github.com/pothosware/SoapyPlutoSDRcd SoapyPlutoSDRmkdir buildcd buildcmake ..</code></pre><p>输出一大串指令，没报错就行，rtlsdr的操作相同，将github网址中的Pluto改成RTL就行。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Gnuradio-soapysdr/SDR </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>wsl2串口连接与文件互通</title>
+      <link href="/2023/11/09/wsl%E4%B8%B2%E5%8F%A3%E8%BF%9E%E6%8E%A5/"/>
+      <url>/2023/11/09/wsl%E4%B8%B2%E5%8F%A3%E8%BF%9E%E6%8E%A5/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Gnuradio3-10-安装教程"><a href="#Gnuradio3-10-安装教程" class="headerlink" title="Gnuradio3.10 安装教程"></a>Gnuradio3.10 安装教程</h1><p><strong>本站所有gnuradio相关教程均使用Ubuntu20.04.6 LTS WS2版本（windows子系统），有想用子系统的可自行寻找教程安装</strong></p><h1 id="串口连接"><a href="#串口连接" class="headerlink" title="串口连接"></a>串口连接</h1><p>wsl2的串口连接不像vmware虚拟机那样，右上角的device能直接连接，其需要以下步骤。</p><p>网上寻找usbipd-win_2.3.0下载，也可选择其他版本，在你的windows上安装</p><p>然后打开ubuntu终端，安装工具包：</p><pre><code>sudo apt install linux-tools-5.4.0-77-generic hwdatasudo update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/5.4.0-77-generic/usbip 20</code></pre><p>以管理员身份运行windows powershell 输入：</p><pre><code>usbipd wsl list</code></pre><p>这会显示出你的usb串口，找到想要串口的编号，输入：</p><pre><code>usbipd wsl attach --“你的busid号”</code></pre><p>在ubuntu环境下输入：</p><pre><code>lsusb</code></pre><p>就可以发现串口了。</p><h1 id="文件通信"><a href="#文件通信" class="headerlink" title="文件通信"></a>文件通信</h1><p>网上说不能修改的帖子我也看到了，但亲测没啥问题。<br>在文件管理器路径双击删除，输入 </p><pre><code>\\wsl$</code></pre><p>进入文件修改就行了，但不要使用搜索选项。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Ubuntu </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网站简介</title>
+      <link href="/2023/11/06/2023-11-6%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/11/06/2023-11-6%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="网站简介"><a href="#网站简介" class="headerlink" title="网站简介"></a>网站简介</h1><p>本站创建于2023-11-6，用于记录本人日常生活，各种学习中的软件的项目与问题的解决，过程随机，错误解决方法都是得出来的经验之谈，过程十分痛苦，欢迎大家多多交流。</p><p>有时候也会更新一些杂谈，包括但不仅限于战锤，gal以及一些战争史，有问题的欢迎联系，邮箱在主页有。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
           
       </categories>
       
