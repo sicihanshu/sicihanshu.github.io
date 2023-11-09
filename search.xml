@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>测试</title>
+      <link href="/2023/11/09/ceshi/"/>
+      <url>/2023/11/09/ceshi/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> FPGA </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>git安装</title>
       <link href="/2023/11/09/git%E5%AE%89%E8%A3%85/"/>
       <url>/2023/11/09/git%E5%AE%89%E8%A3%85/</url>
@@ -14,25 +33,6 @@
       <categories>
           
           <category> Ubuntu </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>记录周常</title>
-      <link href="/2023/11/09/%E5%91%A8%E6%80%BB2023-11-9/"/>
-      <url>/2023/11/09/%E5%91%A8%E6%80%BB2023-11-9/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最大的感觉是，干不完的活，下周还要上台答辩，压力拉满。买的plutosdr还没到，不知道能不能正常接上，事情也一件接着一件，但是还是要保持生活状态，工作日就工作，休息日就休息！</p><p>11-9 今天把grc流程图稍微看了看，准备明天组会讲讲了，顺便把博客优化了下，打算写几个月再放出来。顺便分配了下政治任务，着实感到能者多劳这句话，也只是给一些人偷懒的借口罢了。但是生活时常与压力相伴，与压力共存才是应该的状态。</p><p>这几年战锤这个ip也是越来越火了，作为老锤粉看到这还是很开心的，大多数入坑还是奔着帝国来的吧，虽然我也是帝国粉丝，也不太喜欢官方硬抬钛族，就这新兴种族打算对标谁啊，泰伦都没见到的宇宙小丑罢了。</p><p>不得不说，下雨天泡杯茶在宿舍看看视频做做博客还挺舒服的</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
           
       </categories>
       
@@ -99,16 +99,54 @@
     
     
     <entry>
-      <title>网站简介</title>
-      <link href="/2023/11/06/2023-11-6%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/11/06/2023-11-6%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <title>记录周常</title>
+      <link href="/2023/11/09/%E5%91%A8%E6%80%BB2023-11-9/"/>
+      <url>/2023/11/09/%E5%91%A8%E6%80%BB2023-11-9/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="网站简介"><a href="#网站简介" class="headerlink" title="网站简介"></a>网站简介</h1><p>本站创建于2023-11-6，用于记录本人日常生活，各种学习中的软件的项目与问题的解决，过程随机，错误解决方法都是得出来的经验之谈，过程十分痛苦，欢迎大家多多交流。</p><p>有时候也会更新一些杂谈，包括但不仅限于战锤，gal以及一些战争史，有问题的欢迎联系，邮箱在主页有。</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最大的感觉是，干不完的活，下周还要上台答辩，压力拉满。买的plutosdr还没到，不知道能不能正常接上，事情也一件接着一件，但是还是要保持生活状态，工作日就工作，休息日就休息！</p><p>11-9 今天把grc流程图稍微看了看，准备明天组会讲讲了，顺便把博客优化了下，打算写几个月再放出来。顺便分配了下政治任务，着实感到能者多劳这句话，也只是给一些人偷懒的借口罢了。但是生活时常与压力相伴，与压力共存才是应该的状态。</p><p>这几年战锤这个ip也是越来越火了，作为老锤粉看到这还是很开心的，大多数入坑还是奔着帝国来的吧，虽然我也是帝国粉丝，也不太喜欢官方硬抬钛族，就这新兴种族打算对标谁啊，泰伦都没见到的宇宙小丑罢了。</p><p>不得不说，下雨天泡杯茶在宿舍看看视频做做博客还挺舒服的</p>]]></content>
       
       
       <categories>
           
           <category> 日记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网站简介</title>
+      <link href="/2023/11/06/2023-11-6%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/11/06/2023-11-6%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="网站简介"><a href="#网站简介" class="headerlink" title="网站简介"></a>网站简介</h1><p>本站创建于2023-11-6，用于记录本人日常生活，各种学习中的软件的项目与问题的解决，过程随机，错误解决方法都是得出来的经验之谈，过程十分痛苦，欢迎大家多多交流。</p><p>有时候也会更新一些杂谈，包括但不仅限于战锤，gal以及一些战争史，对于linux gnuradio以及stm32、51或者fpga有问题的欢迎交流，邮箱在主页有。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>linux修改文件权限</title>
+      <link href="/2023/11/06/%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90/"/>
+      <url>/2023/11/06/%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有时候在vim或者执行一些命令时，会出现permission denied等权限不足的错误，这时候进入管理员模式都没用，就要考虑修改文件权限了。</p><p>首先查看文件权限：</p><pre><code>ls -l &lt;文件名&gt;</code></pre><p>会出现由rw构成的代码，根据下面的表可以查看相对应的意思：</p><pre><code>-rw-------600读、写-rw-r–r--644读、写-rwx------700读、写、执行-rwxr-xr-x755读、写、执行-rwx–x--x711读、写、执行-rw-rw-rw-666读、写-rwxrwxrwx777读、写、执行</code></pre><p>这边只列出了所有者的权限，建议直接选择777：</p><pre><code>chmod 777 xxx.xxx</code></pre><p>当然，如果有多个用户，那么：</p><pre><code>chmod o w xxx.xxx表示给其他人授予写xxx.xxx这个文件的权限chmod go-rw xxx.xxx表示删除xxx.xxx中组群和其他人的读和写的权限</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Ubuntu </category>
           
       </categories>
       
