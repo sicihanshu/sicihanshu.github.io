@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>测试</title>
-      <link href="/2023/11/09/ceshi/"/>
-      <url>/2023/11/09/ceshi/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-      
-      <categories>
-          
-          <category> FPGA </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>git安装</title>
       <link href="/2023/11/09/git%E5%AE%89%E8%A3%85/"/>
       <url>/2023/11/09/git%E5%AE%89%E8%A3%85/</url>
@@ -32,7 +13,7 @@
       
       <categories>
           
-          <category> Ubuntu </category>
+          <category> ubuntu </category>
           
       </categories>
       
@@ -61,16 +42,16 @@
     
     
     <entry>
-      <title>pluto与rtl sdr环境设置 与soapysdr的安装</title>
-      <link href="/2023/11/09/pluto%E4%B8%8Ertlsdr%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/"/>
-      <url>/2023/11/09/pluto%E4%B8%8Ertlsdr%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/</url>
+      <title>测试</title>
+      <link href="/2023/11/09/ceshi/"/>
+      <url>/2023/11/09/ceshi/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="soapysdr"><a href="#soapysdr" class="headerlink" title="soapysdr"></a>soapysdr</h1><p><strong>本站所有gnuradio相关教程均使用Ubuntu20.04.6 LTS WS2版本（windows子系统），有想用子系统的可自行寻找教程安装</strong></p><p>市面上的sdr都支持soapysdr协议，想要利用plutosdr或者rtlsdr进行无线电设计，需要用到一些依赖库。</p><p>soapysdr bug很多，但不用慌。</p><p>其依赖libiil、libad9361、Soapysdr库<br>首先更新库</p><pre><code>sudo apt-get update</code></pre><p>1.apt安装库</p><pre><code>sudo apt-get install libiio-utils</code></pre><p>2.源码编译 安装与测试</p><pre><code>sudo apt-get install libxml2 libxml2-dev bison flex libcdk5-dev cmakesudo apt-get install libaio-dev libusb-1.0-0-dev libserialport-dev libxml2-dev libavahi-client-dev doxygen graphvizgit clone https://github.com/pcercuei/libini.gitcd libinimkdir build &amp;&amp; cd build &amp;&amp; cmake ../ &amp;&amp; make &amp;&amp; sudo make installgit clone https://github.com/analogdevicesinc/libiio.gitcd libiiomkdir build &amp;&amp; cd build &amp;&amp; cmake ../ &amp;&amp; make &amp;&amp; sudo make installPATH=/usr/lib/:$PATHiio_info -s</code></pre><p>3.ad9361</p><pre><code>cd ~/Downloadgit clone https://github.com/analogdevicesinc/libad9361-iiocd libad9361-iiocmake ./CMakeLists.txtmakesudo make install</code></pre><p>注意 没有cmake的可以自己装一下</p><p>4.SoapySDR</p><pre><code>git clone https://github.com/pothosware/SoapySDR.gitcd SoapySDRgit checkout tags/soapy-sdr-0.7.2kdir build &amp;&amp; cd buildcmake ..make -j4sudo make installsudo ldconfig</code></pre><p>到这里，基础库就安装完了，接下来该配置pluto与rtl的环境了</p><h1 id="plutosdr-rtlsdr"><a href="#plutosdr-rtlsdr" class="headerlink" title="plutosdr rtlsdr"></a>plutosdr rtlsdr</h1><p>运行如下代码：</p><pre><code>git clone https://github.com/pothosware/SoapyPlutoSDRcd SoapyPlutoSDRmkdir buildcd buildcmake ..</code></pre><p>输出一大串指令，没报错就行，rtlsdr的操作相同，将github网址中的Pluto改成RTL就行。</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
       
       <categories>
           
-          <category> Gnuradio-soapysdr/SDR </category>
+          <category> FPGA </category>
           
       </categories>
       
@@ -89,7 +70,26 @@
       
       <categories>
           
-          <category> Ubuntu </category>
+          <category> ubuntu </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>pluto与rtl sdr环境设置 与soapysdr的安装</title>
+      <link href="/2023/11/09/pluto%E4%B8%8Ertlsdr%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/"/>
+      <url>/2023/11/09/pluto%E4%B8%8Ertlsdr%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="soapysdr"><a href="#soapysdr" class="headerlink" title="soapysdr"></a>soapysdr</h1><p><strong>本站所有gnuradio相关教程均使用Ubuntu20.04.6 LTS WS2版本（windows子系统），有想用子系统的可自行寻找教程安装</strong></p><p>市面上的sdr都支持soapysdr协议，想要利用plutosdr或者rtlsdr进行无线电设计，需要用到一些依赖库。</p><p>soapysdr bug很多，但不用慌。</p><p>其依赖libiil、libad9361、Soapysdr库<br>首先更新库</p><pre><code>sudo apt-get update</code></pre><p>1.apt安装库</p><pre><code>sudo apt-get install libiio-utils</code></pre><p>2.源码编译 安装与测试</p><pre><code>sudo apt-get install libxml2 libxml2-dev bison flex libcdk5-dev cmakesudo apt-get install libaio-dev libusb-1.0-0-dev libserialport-dev libxml2-dev libavahi-client-dev doxygen graphvizgit clone https://github.com/pcercuei/libini.gitcd libinimkdir build &amp;&amp; cd build &amp;&amp; cmake ../ &amp;&amp; make &amp;&amp; sudo make installgit clone https://github.com/analogdevicesinc/libiio.gitcd libiiomkdir build &amp;&amp; cd build &amp;&amp; cmake ../ &amp;&amp; make &amp;&amp; sudo make installPATH=/usr/lib/:$PATHiio_info -s</code></pre><p>3.ad9361</p><pre><code>cd ~/Downloadgit clone https://github.com/analogdevicesinc/libad9361-iiocd libad9361-iiocmake ./CMakeLists.txtmakesudo make install</code></pre><p>注意 没有cmake的可以自己装一下</p><p>4.SoapySDR</p><pre><code>git clone https://github.com/pothosware/SoapySDR.gitcd SoapySDRgit checkout tags/soapy-sdr-0.7.2kdir build &amp;&amp; cd buildcmake ..make -j4sudo make installsudo ldconfig</code></pre><p>到这里，基础库就安装完了，接下来该配置pluto与rtl的环境了</p><h1 id="plutosdr-rtlsdr"><a href="#plutosdr-rtlsdr" class="headerlink" title="plutosdr rtlsdr"></a>plutosdr rtlsdr</h1><p>运行如下代码：</p><pre><code>git clone https://github.com/pothosware/SoapyPlutoSDRcd SoapyPlutoSDRmkdir buildcd buildcmake ..</code></pre><p>输出一大串指令，没报错就行，rtlsdr的操作相同，将github网址中的Pluto改成RTL就行。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Gnuradio-soapysdr/SDR </category>
           
       </categories>
       
@@ -146,7 +146,7 @@
       
       <categories>
           
-          <category> Ubuntu </category>
+          <category> ubuntu </category>
           
       </categories>
       
