@@ -137,25 +137,6 @@
     
     
     <entry>
-      <title>git安装</title>
-      <link href="/2023/11/09/git%E5%AE%89%E8%A3%85/"/>
-      <url>/2023/11/09/git%E5%AE%89%E8%A3%85/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Gnuradio3-10-安装教程"><a href="#Gnuradio3-10-安装教程" class="headerlink" title="Gnuradio3.10 安装教程"></a>Gnuradio3.10 安装教程</h1><p><strong>本站所有gnuradio相关教程均使用Ubuntu20.04.6 LTS WS2版本（windows子系统），有想用子系统的可自行寻找教程安装</strong><br><strong>更新，子系统就是答辩，兼容性做的太烂了，用虚拟机了</strong><br>git能够帮助用户很好的管理指向顺序，同时也为存储数据做出了方案，比如包的收发。</p><p>首先进行更新确保apt列表完全更新：</p><pre><code>apt-get update -yapt-get upgrade -y</code></pre><p>然后，安装git：</p><pre><code>sudo apt-get git</code></pre><p>可以查看版本：</p><pre><code>git --version</code></pre><p>默认已经在git上建立了仓库，连接了邮箱与id。</p><p>这些是各种场合常见的 Git 命令：</p><p>开始一个工作区（参见：git help tutorial）<br>  clone      克隆一个仓库到一个新目录<br>  init      创建一个空的 Git 仓库或重新初始化一个已存在的仓库</p><p>在当前变更上工作（参见：git help everyday）<br>  add        添加文件内容至索引<br>  mv        移动或重命名一个文件、目录或符号链接<br>  reset      重置当前 HEAD 到指定状态<br>  rm        从工作区和索引中删除文件</p><p>检查历史和状态（参见：git help revisions）<br>  bisect    通过二分查找定位引入 bug 的提交<br>  grep      输出和模式匹配的行<br>  log        显示提交日志<br>  show      显示各种类型的对象<br>  status    显示工作区状态</p><p>扩展、标记和调校您的历史记录<br>  branch    列出、创建或删除分支<br>  checkout  切换分支或恢复工作区文件<br>  commit    记录变更到仓库<br>  diff      显示提交之间、提交和工作区之间等的差异<br>  merge      合并两个或更多开发历史<br>  rebase    在另一个分支上重新应用提交<br>  tag        创建、列出、删除或校验一个 GPG 签名的标签对象</p><p>协同（参见：git help workflows）<br>  fetch      从另外一个仓库下载对象和引用<br>  pull      获取并整合另外的仓库或一个本地分支<br>  push      更新远程引用和相关的对象</p><p>命令 ‘git help -a’ 和 ‘git help -g’ 显示可用的子命令和一些概念帮助。<br>查看 ‘git help &lt;命令&gt;’ 或 ‘git help &lt;概念&gt;’ 以获取给定子命令或概念的<br>帮助。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> ubuntu </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>测试</title>
       <link href="/2023/11/09/ceshi/"/>
       <url>/2023/11/09/ceshi/</url>
@@ -166,6 +147,25 @@
       <categories>
           
           <category> FPGA </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git安装</title>
+      <link href="/2023/11/09/git%E5%AE%89%E8%A3%85/"/>
+      <url>/2023/11/09/git%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Gnuradio3-10-安装教程"><a href="#Gnuradio3-10-安装教程" class="headerlink" title="Gnuradio3.10 安装教程"></a>Gnuradio3.10 安装教程</h1><p><strong>本站所有gnuradio相关教程均使用Ubuntu20.04.6 LTS WS2版本（windows子系统），有想用子系统的可自行寻找教程安装</strong><br><strong>更新，子系统就是答辩，兼容性做的太烂了，用虚拟机了</strong><br>git能够帮助用户很好的管理指向顺序，同时也为存储数据做出了方案，比如包的收发。</p><p>首先进行更新确保apt列表完全更新：</p><pre><code>apt-get update -yapt-get upgrade -y</code></pre><p>然后，安装git：</p><pre><code>sudo apt-get git</code></pre><p>可以查看版本：</p><pre><code>git --version</code></pre><p>默认已经在git上建立了仓库，连接了邮箱与id。</p><p>这些是各种场合常见的 Git 命令：</p><p>开始一个工作区（参见：git help tutorial）<br>  clone      克隆一个仓库到一个新目录<br>  init      创建一个空的 Git 仓库或重新初始化一个已存在的仓库</p><p>在当前变更上工作（参见：git help everyday）<br>  add        添加文件内容至索引<br>  mv        移动或重命名一个文件、目录或符号链接<br>  reset      重置当前 HEAD 到指定状态<br>  rm        从工作区和索引中删除文件</p><p>检查历史和状态（参见：git help revisions）<br>  bisect    通过二分查找定位引入 bug 的提交<br>  grep      输出和模式匹配的行<br>  log        显示提交日志<br>  show      显示各种类型的对象<br>  status    显示工作区状态</p><p>扩展、标记和调校您的历史记录<br>  branch    列出、创建或删除分支<br>  checkout  切换分支或恢复工作区文件<br>  commit    记录变更到仓库<br>  diff      显示提交之间、提交和工作区之间等的差异<br>  merge      合并两个或更多开发历史<br>  rebase    在另一个分支上重新应用提交<br>  tag        创建、列出、删除或校验一个 GPG 签名的标签对象</p><p>协同（参见：git help workflows）<br>  fetch      从另外一个仓库下载对象和引用<br>  pull      获取并整合另外的仓库或一个本地分支<br>  push      更新远程引用和相关的对象</p><p>命令 ‘git help -a’ 和 ‘git help -g’ 显示可用的子命令和一些概念帮助。<br>查看 ‘git help &lt;命令&gt;’ 或 ‘git help &lt;概念&gt;’ 以获取给定子命令或概念的<br>帮助。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ubuntu </category>
           
       </categories>
       
