@@ -5,10 +5,10 @@
     
     <entry>
       <title>记录周常3</title>
-      <link href="/2023/11/20/%E5%91%A8%E6%80%BB2023-11-20/"/>
-      <url>/2023/11/20/%E5%91%A8%E6%80%BB2023-11-20/</url>
+      <link href="/2023/11/26/%E5%91%A8%E6%80%BB2023-11-20/"/>
+      <url>/2023/11/26/%E5%91%A8%E6%80%BB2023-11-20/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>重新玩起了粥，但这maa怎么跑不起来？<br>今天有外教课，坐牢。</p><p>找到原因了，json换行的最后一行不能有逗号，开始机械臂自动化。<br>尬尬尬</p><p>找到新思路，试试力大砖飞。自己做</p><p>写个py代码  把csv拼接（chatgpt）</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>重新玩起了粥，但这maa怎么跑不起来？<br>今天有外教课，坐牢。</p><p>找到原因了，json换行的最后一行不能有逗号，开始机械臂自动化。<br>尬尬尬</p><p>找到新思路，试试力大砖飞。自己做</p><p>写个py代码  把csv拼接（chatgpt）<br>这b代码是真难写，给他物理拼接了，但效果肯定是一坨答辩，下周测试一下，找新思路。</p><p>顺便该学一下fpga板卡的设计了。</p><p>周末去姐姐大人家里爽躺一晚，什么叫神仙生活啊，该玩玩该学学，出来工资五千拼什么命啊</p><p>很想消费！</p>]]></content>
       
       
       <categories>
