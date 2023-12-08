@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>周常</title>
+      <link href="/2023/12/04/%E5%91%A8%E6%80%BB2023-12-5/"/>
+      <url>/2023/12/04/%E5%91%A8%E6%80%BB2023-12-5/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>才研一就越来越摆了，也不知道学什么，fpga也学不明白。<br>随便写写，没啥灵感。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>记录周常3</title>
+      <link href="/2023/11/27/%E5%91%A8%E6%80%BB11-07/"/>
+      <url>/2023/11/27/%E5%91%A8%E6%80%BB11-07/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>师大之星？师大之癌！<br>文件出来没问题，就是数据会对不上，找不到解决方法啊。<br>还有这个fpga是真tm难，前途迷茫！</p><p>miku！miku！</p><p>只要数据正确  那就完成！</p><p>寄寄寄，师大之癌啊，毫无作用的比赛！</p><p>爽玩两天</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>记录周常3</title>
       <link href="/2023/11/26/%E5%91%A8%E6%80%BB2023-11-20/"/>
       <url>/2023/11/26/%E5%91%A8%E6%80%BB2023-11-20/</url>
@@ -23,25 +61,6 @@
     
     
     <entry>
-      <title>Gnuradio3.10安装自定义oot</title>
-      <link href="/2023/11/14/gnuradio%E5%AE%89%E8%A3%85%E8%87%AA%E5%AE%9A%E4%B9%89oot/"/>
-      <url>/2023/11/14/gnuradio%E5%AE%89%E8%A3%85%E8%87%AA%E5%AE%9A%E4%B9%89oot/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>就拿DSPIRA项目来说，在他们的官网上能找到github的库，直接下载。</p><p>进去到有CMakeLists.txt的一页，打开终端。</p><pre><code>makir buildcd buildcmake ..makesudo make install</code></pre><p>五连，就直接装上了，如果要改源码，改完保存执行最后一行就行。</p><p>怎么做 我也不会。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Gnuradio-soapysdr/SDR </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>vmware没法拖拽问题</title>
       <link href="/2023/11/14/vmware%E6%B2%A1%E6%B3%95%E6%8B%96%E6%8B%BD%E9%97%AE%E9%A2%98/"/>
       <url>/2023/11/14/vmware%E6%B2%A1%E6%B3%95%E6%8B%96%E6%8B%BD%E9%97%AE%E9%A2%98/</url>
@@ -52,6 +71,25 @@
       <categories>
           
           <category> ubuntu </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Gnuradio3.10安装自定义oot</title>
+      <link href="/2023/11/14/gnuradio%E5%AE%89%E8%A3%85%E8%87%AA%E5%AE%9A%E4%B9%89oot/"/>
+      <url>/2023/11/14/gnuradio%E5%AE%89%E8%A3%85%E8%87%AA%E5%AE%9A%E4%B9%89oot/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>就拿DSPIRA项目来说，在他们的官网上能找到github的库，直接下载。</p><p>进去到有CMakeLists.txt的一页，打开终端。</p><pre><code>makir buildcd buildcmake ..makesudo make install</code></pre><p>五连，就直接装上了，如果要改源码，改完保存执行最后一行就行。</p><p>怎么做 我也不会。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Gnuradio-soapysdr/SDR </category>
           
       </categories>
       
@@ -194,25 +232,6 @@
     
     
     <entry>
-      <title>pluto与rtl sdr环境设置 与soapysdr的安装</title>
-      <link href="/2023/11/09/pluto%E4%B8%8Ertlsdr%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/"/>
-      <url>/2023/11/09/pluto%E4%B8%8Ertlsdr%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="soapysdr"><a href="#soapysdr" class="headerlink" title="soapysdr"></a>soapysdr</h1><p><strong>本站所有gnuradio相关教程均使用Ubuntu20.04.6 LTS WS2版本（windows子系统），有想用子系统的可自行寻找教程安装</strong><br><strong>更新，子系统就是答辩，兼容性做的太烂了，用虚拟机了</strong><br><strong>版本为22.04</strong></p><p>市面上的sdr都支持soapysdr协议，想要利用plutosdr或者rtlsdr进行无线电设计，需要用到一些依赖库。</p><p>soapysdr bug很多，但不用慌。</p><p><strong>更新，用了虚拟机，没用sopay，可以跳过</strong></p><p>其依赖libiil、libad9361、Soapysdr库<br>首先更新库</p><pre><code>sudo apt-get update</code></pre><p>1.apt安装库</p><pre><code>sudo apt-get install libiio-utils</code></pre><p>2.源码编译 安装与测试</p><pre><code>sudo apt-get install libxml2 libxml2-dev bison flex libcdk5-dev cmakesudo apt-get install libaio-dev libusb-1.0-0-dev libserialport-dev libxml2-dev libavahi-client-dev doxygen graphvizgit clone https://github.com/pcercuei/libini.gitcd libinimkdir build &amp;&amp; cd build &amp;&amp; cmake ../ &amp;&amp; make &amp;&amp; sudo make installgit clone https://github.com/analogdevicesinc/libiio.gitcd libiiomkdir build &amp;&amp; cd build &amp;&amp; cmake ../ &amp;&amp; make &amp;&amp; sudo make installPATH=/usr/lib/:$PATHiio_info -s</code></pre><p>3.ad9361</p><pre><code>cd ~/Downloadgit clone https://github.com/analogdevicesinc/libad9361-iiocd libad9361-iiocmake ./CMakeLists.txtmakesudo make install</code></pre><p>注意 没有cmake的可以自己装一下</p><p>4.SoapySDR</p><pre><code>git clone https://github.com/pothosware/SoapySDR.gitcd SoapySDRgit checkout tags/soapy-sdr-0.7.2kdir build &amp;&amp; cd buildcmake ..make -j4sudo make installsudo ldconfig</code></pre><p><strong>更新。前置安装库，有些失败问题不大</strong></p><p>到这里，基础库就安装完了，接下来该配置pluto与rtl的环境了</p><pre><code>sudo apt install libxml2 libxml2-dev bison flex cmake git libaio-dev libboost-all-devsudo apt install doxygensudo apt install libusb-1.0-0-devsudo apt install libavahi-common-dev libavahi-client-devsudo apt install bison flex cmake git libgmp-devsudo apt install swig</code></pre><p>如果cmake遇到缺失libzstd的问题，直接sudo安装：</p><pre><code>sudo apt-get install libzstd-dev</code></pre><p>还有错，试试下面的：</p><pre><code>git clone https://github.com/analogdevicesinc/gr-iio.gitcd gr-iiocmake .make sudo make installcd ..sudo ldconfig</code></pre><p>如果ad9361cmake报错，问题不大。</p><h1 id="plutosdr-rtlsdr"><a href="#plutosdr-rtlsdr" class="headerlink" title="plutosdr rtlsdr"></a>plutosdr rtlsdr</h1><p>运行如下代码：</p><pre><code>git clone https://github.com/pothosware/SoapyPlutoSDRcd SoapyPlutoSDRmkdir buildcd buildcmake ..</code></pre><p>输出一大串指令，没报错就行，rtlsdr的操作相同，将github网址中的Pluto改成RTL就行。</p><p>安装gnuradio：</p><pre><code>sudo apt-get install gnuradio</code></pre><p>22.04默认安装3.10版本，这个很重要，要最新版本的。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Gnuradio-soapysdr/SDR </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>wsl2串口连接与文件互通</title>
       <link href="/2023/11/09/wsl%E4%B8%B2%E5%8F%A3%E8%BF%9E%E6%8E%A5/"/>
       <url>/2023/11/09/wsl%E4%B8%B2%E5%8F%A3%E8%BF%9E%E6%8E%A5/</url>
@@ -223,6 +242,25 @@
       <categories>
           
           <category> ubuntu </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>pluto与rtl sdr环境设置 与soapysdr的安装</title>
+      <link href="/2023/11/09/pluto%E4%B8%8Ertlsdr%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/"/>
+      <url>/2023/11/09/pluto%E4%B8%8Ertlsdr%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="soapysdr"><a href="#soapysdr" class="headerlink" title="soapysdr"></a>soapysdr</h1><p><strong>本站所有gnuradio相关教程均使用Ubuntu20.04.6 LTS WS2版本（windows子系统），有想用子系统的可自行寻找教程安装</strong><br><strong>更新，子系统就是答辩，兼容性做的太烂了，用虚拟机了</strong><br><strong>版本为22.04</strong></p><p>市面上的sdr都支持soapysdr协议，想要利用plutosdr或者rtlsdr进行无线电设计，需要用到一些依赖库。</p><p>soapysdr bug很多，但不用慌。</p><p><strong>更新，用了虚拟机，没用sopay，可以跳过</strong></p><p>其依赖libiil、libad9361、Soapysdr库<br>首先更新库</p><pre><code>sudo apt-get update</code></pre><p>1.apt安装库</p><pre><code>sudo apt-get install libiio-utils</code></pre><p>2.源码编译 安装与测试</p><pre><code>sudo apt-get install libxml2 libxml2-dev bison flex libcdk5-dev cmakesudo apt-get install libaio-dev libusb-1.0-0-dev libserialport-dev libxml2-dev libavahi-client-dev doxygen graphvizgit clone https://github.com/pcercuei/libini.gitcd libinimkdir build &amp;&amp; cd build &amp;&amp; cmake ../ &amp;&amp; make &amp;&amp; sudo make installgit clone https://github.com/analogdevicesinc/libiio.gitcd libiiomkdir build &amp;&amp; cd build &amp;&amp; cmake ../ &amp;&amp; make &amp;&amp; sudo make installPATH=/usr/lib/:$PATHiio_info -s</code></pre><p>3.ad9361</p><pre><code>cd ~/Downloadgit clone https://github.com/analogdevicesinc/libad9361-iiocd libad9361-iiocmake ./CMakeLists.txtmakesudo make install</code></pre><p>注意 没有cmake的可以自己装一下</p><p>4.SoapySDR</p><pre><code>git clone https://github.com/pothosware/SoapySDR.gitcd SoapySDRgit checkout tags/soapy-sdr-0.7.2kdir build &amp;&amp; cd buildcmake ..make -j4sudo make installsudo ldconfig</code></pre><p><strong>更新。前置安装库，有些失败问题不大</strong></p><p>到这里，基础库就安装完了，接下来该配置pluto与rtl的环境了</p><pre><code>sudo apt install libxml2 libxml2-dev bison flex cmake git libaio-dev libboost-all-devsudo apt install doxygensudo apt install libusb-1.0-0-devsudo apt install libavahi-common-dev libavahi-client-devsudo apt install bison flex cmake git libgmp-devsudo apt install swig</code></pre><p>如果cmake遇到缺失libzstd的问题，直接sudo安装：</p><pre><code>sudo apt-get install libzstd-dev</code></pre><p>还有错，试试下面的：</p><pre><code>git clone https://github.com/analogdevicesinc/gr-iio.gitcd gr-iiocmake .make sudo make installcd ..sudo ldconfig</code></pre><p>如果ad9361cmake报错，问题不大。</p><h1 id="plutosdr-rtlsdr"><a href="#plutosdr-rtlsdr" class="headerlink" title="plutosdr rtlsdr"></a>plutosdr rtlsdr</h1><p>运行如下代码：</p><pre><code>git clone https://github.com/pothosware/SoapyPlutoSDRcd SoapyPlutoSDRmkdir buildcd buildcmake ..</code></pre><p>输出一大串指令，没报错就行，rtlsdr的操作相同，将github网址中的Pluto改成RTL就行。</p><p>安装gnuradio：</p><pre><code>sudo apt-get install gnuradio</code></pre><p>22.04默认安装3.10版本，这个很重要，要最新版本的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Gnuradio-soapysdr/SDR </category>
           
       </categories>
       
